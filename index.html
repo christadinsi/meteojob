@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+		<title>Formulaire méteojob</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<img src="assets/img/mteologo.png">
+				<h1>Créez votre profil Meteojob</h1>
+			</header>
+			<form>
+				<div class="container">
+					<div class="children">
+						<label class="mpt" for="Prénom" >Prénom</label>
+						<input class="petitchamp" type="text" name="Prénom" id="Prénom" placeholder="Votre Prénom" required>
+					</div>
+					<div class="children">
+						<label class="mpt" for="Nom" >Nom</label>
+						<input class="petitchamp" type="text" name=" Nom" id="Nom" placeholder="Votre nom" required>
+					</div>	
+				</div>
+			
+				<div id="email" class="champ">
+					<label class="mpttt"  for="mail"> Adresse e-mail</label><br>
+					<input class="poste" type="e-mail" name="mail" id="mail" placeholder="votre adresse email" required>
+				</div>
+					<label class="mp" for="pass">Mot de passe</label> 
+				<div class="oe">
+					<label></label>
+					<input class="border-input" type="password" name="pass" id="pass" placeholder="choisissez votre mot de passe" required>
+					<img src="assets/img/oo.png">
+				</div>
+				<div class="champ">
+					<label class="mpttt" for="Poste"> Postes recherchés</label>
+					<input class="poste" type="text" name="Poste" id="Poste" placeholder="Ex : Chef de projet, Cuisinier..." required="">
+				</div>
+				<div class="champ">
+					<label class="mpttt" for="lieu" id="">Ou souhaitez-vous travailler?</label><br>
+					<input class="ou" type="text" name="lieu" id="lieu" placeholder ="Ex : Essonne, Nante, Bretagne..." required="">
+				</div>
+	 			<p class="ty">Types de contrats recherchés</p>
+				<div class="gridd">
+					<div>
+
+						    <input type="checkbox" value="CDI" name="type" id="a" checked>
+			                <label class ="LAB" for="a">CDI</label>
+			               
+			                <input type="checkbox" value="CDD" name="type" id="b">
+			                <label class ="LAB" for="b">CDD</label>
+
+			                <input type="checkbox" value="Indépendant/Franchisé" name="type" id="c">
+			                <label class ="LABB" for="c">Indépendant /<br>Franchisé</label>
+
+			                <input type="checkbox" value="Intérim" name="type" id="d">
+			                <label class ="LAB" for="d"> Intérim</label>
+
+			                <input type="checkbox" value="Stage" name=type id="e">
+			                <label class ="LAB" for="e">Stage</p></label>
+
+			                <input type="checkbox" value="Alternance/Apprentissage" name="type" id="f">
+			                <label class ="LABB"for="f">Alternance/ Apprentissage</label>
+			                 <a class="ct" href="">+ de type de contrat</a>
+			                
+			                
+					</div>
+
+
+				</div>
+				
+				<div class="biggrid">
+						<div class="acpt">
+						     J'accepte les <a href="#">conditions générales</a> pour créer mon compte, bénéficier des services de maching et postuler aux offres:
+						     
+						</div>
+						<div class="btn">
+									<input type="radio" name="check" id="oui" value="oui" required>
+									<label   for="oui">OUI</label>
+									<input type="radio" name="check" id="non" value="non" checked>
+									<label  for="non"> NON</label>
+						</div>	
+				</div>
+				 	
+				
+					       <input class="petitchamps" type="submit" name="Continuer" value="Continuer">
+				
+			</form>
+	  </main>
+	</body>
+</html>
